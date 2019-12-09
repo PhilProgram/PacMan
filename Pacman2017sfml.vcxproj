@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{DB44433F-A7BF-4F36-AB0D-73C3DC9B8B92}</ProjectGuid>
+    <RootNamespace>Pacman2017sfml</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf" />
+    <Font Include="PAC-FONT.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="board.txt" />
+    <Text Include="boardTwo.txt" />
+    <Text Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="button-09.wav" />
+    <Media Include="button-19.wav" />
+    <Media Include="game_over.wav" />
+    <Media Include="mission_succ.wav" />
+    <Media Include="pacman_chomp.wav" />
+    <Media Include="pacman_death.wav" />
+    <Media Include="pacman_eatfruit.wav" />
+    <Media Include="pacman_intermission.wav" />
+    <Media Include="poison.wav" />
+    <Media Include="powerup.wav" />
+    <Media Include="terminated.wav" />
+    <Media Include="you_suck.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cookie.png" />
+    <Image Include="deathskull.png" />
+    <Image Include="game_over.jpg" />
+    <Image Include="instructionButton.png" />
+    <Image Include="instructions.png" />
+    <Image Include="kookycookieart.png" />
+    <Image Include="pacback.png" />
+    <Image Include="pacbackground.png" />
+    <Image Include="pacsprite.png" />
+    <Image Include="playButtons.jpg" />
+    <Image Include="playgreen.jpg" />
+    <Image Include="playnow.jpg" />
+    <Image Include="purpleplay.png" />
+    <Image Include="quitnew.png" />
+    <Image Include="quitroyal.jpg" />
+    <Image Include="ready1.jpg" />
+    <Image Include="spritesheet.png" />
+    <Image Include="th.jpg" />
+    <Image Include="thnew.png" />
+    <Image Include="wall.png" />
+    <Image Include="winnerwinner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flac.dll" />
+    <None Include="freetype.dll" />
+    <None Include="jpeg62.dll" />
+    <None Include="libbz2.dll" />
+    <None Include="libpng16.dll" />
+    <None Include="ogg.dll" />
+    <None Include="OpenAL32.dll" />
+    <None Include="Pacman2017sfml.vcxproj.user" />
+    <None Include="PacMan_Final_Phil_Pinta(1).zip" />
+    <None Include="Pac_Link_Errorv02.iobj" />
+    <None Include="Pac_Link_Errorv02.ipdb" />
+    <None Include="Pac_Link_Errorv02.pdb" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="vorbis.dll" />
+    <None Include="vorbisenc.dll" />
+    <None Include="vorbisfile.dll" />
+    <None Include="zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Characters.cpp" />
+    <ClCompile Include="clickButton.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Cookie.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="PacMan.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Wall.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Characters.h" />
+    <ClInclude Include="clickButton.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Cookie.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="PacMan.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Wall.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

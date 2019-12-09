@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf" />
+    <Font Include="PAC-FONT.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="board.txt" />
+    <Text Include="boardTwo.txt" />
+    <Text Include="README.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="button-09.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="button-19.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="game_over.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="mission_succ.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="pacman_chomp.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="pacman_death.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="pacman_eatfruit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="pacman_intermission.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="poison.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="powerup.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="terminated.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="you_suck.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="deathskull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="game_over.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="instructionButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="instructions.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kookycookieart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacback.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacbackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacsprite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playButtons.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playgreen.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playnow.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="purpleplay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="quitnew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="quitroyal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ready1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="th.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="thnew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="winnerwinner.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flac.dll" />
+    <None Include="freetype.dll" />
+    <None Include="jpeg62.dll" />
+    <None Include="libbz2.dll" />
+    <None Include="libpng16.dll" />
+    <None Include="ogg.dll" />
+    <None Include="OpenAL32.dll" />
+    <None Include="Pac_Link_Errorv02.iobj" />
+    <None Include="Pac_Link_Errorv02.ipdb" />
+    <None Include="Pac_Link_Errorv02.pdb" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="vorbis.dll" />
+    <None Include="vorbisenc.dll" />
+    <None Include="vorbisfile.dll" />
+    <None Include="zlib1.dll" />
+    <None Include="PacMan_Final_Phil_Pinta(1).zip">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Pacman2017sfml.vcxproj.user">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clickButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cookie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clickButton.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cookie.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacMan.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
